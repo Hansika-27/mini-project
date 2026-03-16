@@ -1,0 +1,38 @@
+{
+  "features": [
+    "Students_enrolled",
+    "Attendance_percent",
+    "Special_event_enc",
+    "Menu_count",
+    "Previous_day_leftover_kg",
+    "Nonveg_items",
+    "Meal_type_enc",
+    "Day_enc",
+    "Main_nonveg_kg",
+    "Main_veg_kg",
+    "People_served"
+  ],
+  "ratios": {
+    "people_per_student": 0.961,
+    "nonveg_kg_per_person": 0.0,
+    "veg_kg_per_person": 0.104239
+  },
+  "metrics": {
+    "mae": 3.0314,
+    "rmse": 3.9538,
+    "r2": 0.9096
+  },
+  "feature_importances": {
+    "Students_enrolled": 0.0,
+    "Attendance_percent": 0.03779598644606227,
+    "Special_event_enc": 0.00012946007397286356,
+    "Menu_count": 0.00048621855260543685,
+    "Previous_day_leftover_kg": 0.003223479686277051,
+    "Nonveg_items": 0.015253042985889326,
+    "Meal_type_enc": 0.0013469840890002552,
+    "Day_enc": 0.001356001511860921,
+    "Main_nonveg_kg": 0.867448082524154,
+    "Main_veg_kg": 0.03565096625376001,
+    "People_served": 0.03730977787641799
+  }
+}
