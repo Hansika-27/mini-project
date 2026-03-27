@@ -1,0 +1,26 @@
+{
+  "features": [
+    "Students_enrolled",
+    "Attendance_percent",
+    "Special_event_enc",
+    "Menu_count",
+    "Previous_day_leftover_kg",
+    "Nonveg_items",
+    "Meal_type_enc",
+    "Day_enc",
+    "People_served"
+  ],
+  "serving_ratios": {
+    "rice_kg_per_person": 0.15,
+    "dal_kg_per_person": 0.1,
+    "roti_per_person": 3,
+    "veg_kg_per_person": 0.12,
+    "nonveg_kg_per_person": 0.1
+  },
+  "metrics": {
+    "mae": 1.8215,
+    "rmse": 2.3279,
+    "r2": 0.8699
+  },
+  "feature_importances": {}
+}
